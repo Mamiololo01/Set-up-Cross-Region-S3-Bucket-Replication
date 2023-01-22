@@ -1,0 +1,12 @@
+Create an S3 Bucket and Enable Replication
+
+1. Copy the name of the lab-provided *appconfigprod1* bucket and use it to create a new S3 bucket in the US West (Oregon) us-west-2 region, replacing 
+*appconfigprod1* with *appconfigprod2* to ensure it is globally unique.
+Note: After creating the new bucket, you may receive a warning about system tags; you can safely ignore it.
+1. Enable automatic file replication from the *appconfigprod1* S3 bucket to the *appconfigprod2* S3 bucket.
+Run Progress Check
+
+Test Replication and Observe Results
+
+1. Upload a file to the *appconfigprod1* S3 bucket.
+2. Ensure the file was automatically replicated to the *appconfigprod2* S3 bucket.
